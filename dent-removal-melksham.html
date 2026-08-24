@@ -268,7 +268,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   <div class="container">
     <div class="label">Areas We Cover</div>
     <h1>Dent Removal Melksham</h1>
-    <p>We are based in Melksham, so this is home ground rather than a postcode on a coverage list. Send a photo and we will tell you straight whether paintless will sort it.</p>
+    <p>We are based in Melksham, so this is home ground rather than a postcode on a coverage list. Send a photo and we will tell you straight whether PDR will sort it.</p>
     <a class="btn-cta" href="tel:01225000000"><span class="pglyph">&#128222;</span> 01225 000 000</a>
   </div>
 </section>
@@ -306,8 +306,8 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
     <ul class="about-points">
         <li><strong>We are already in Melksham</strong><span>No travel time built into the price and no waiting for a van to be in the area. Most of the town is a ten minute drive from us.</span></li>
         <li><strong>Your factory paint stays on</strong><span>No filler, no colour matching, no lacquer and no blending into the next panel. The finish stays the one the car left the factory with.</span></li>
-        <li><strong>Quick turnaround</strong><span>Single dents are usually measured in hours. You are not left without the car while it sits in a bodyshop queue behind gearboxes and MOTs.</span></li>
-        <li><strong>A straight answer first</strong><span>If paintless will not put a dent right, we say so before we start rather than halfway through the job.</span></li>
+        <li><strong>Quick turnaround</strong><span>Single dents are usually measured in hours. You are not left without the car while it sits in a bodyshop queue behind parts and paint jobs.</span></li>
+        <li><strong>A straight answer first</strong><span>If PDR will not put a dent right, we say so before we start rather than halfway through the job.</span></li>
     </ul>
   </div>
 </section>
@@ -326,7 +326,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
       <li>
         <span class="num">Step Two</span>
         <strong>We Come Back With A Price</strong>
-        <span>We look at what you have sent, tell you straight whether paintless will put it right, and give you a price. No trip to a garage just to get quoted.</span>
+        <span>We look at what you have sent, tell you straight whether PDR will put it right, and give you a price. No trip to a garage just to get quoted.</span>
       </li>
       <li>
         <span class="num">Step Three</span>
@@ -380,7 +380,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   <div class="container">
     <div class="label">Dent In Melksham?</div>
     <h2>Ready To Book Dent Removal In Melksham?</h2>
-    <p>Send us a photo of the damage and we will come back with a straight answer and a price. If paintless is not right for it, we will tell you that too.</p>
+    <p>Send us a photo of the damage and we will come back with a straight answer and a price. If PDR is not right for it, we will tell you that too.</p>
     <a class="btn-cta" href="tel:01225000000"><span class="pglyph">&#128222;</span> 01225 000 000</a>
   </div>
 </section>
@@ -478,6 +478,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
 
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 function toggleFaq(el){
   var item=el.parentElement;
   var open=item.classList.contains('open');

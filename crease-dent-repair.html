@@ -222,7 +222,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   "@type": "Service",
   "name": "Crease Dent Repair",
   "serviceType": "Crease Dent Repair",
-  "description": "Paintless repair of creases, long narrow dents where the metal has been folded in across a panel, eased out gradually without paint or filler.",
+  "description": "PDR repair of creases, long narrow dents where the metal has been folded in across a panel, eased out gradually without paint or filler.",
   "url": "https://www.everdentpdr.co.uk/crease-dent-repair",
   "provider": {
     "@type": "AutoBodyShop",
@@ -335,12 +335,12 @@ title="Everdent PDR - Contact Form"
     <h2>What You'll Pay - No Hidden Costs</h2>
     <p class="body-copy">Creases are quoted individually from a photo. There is no standard price because no two creases run the same way across a panel.</p>
     <p class="body-copy">Length is only part of it. What really sets the price is how sharp the fold is and whether the metal has been stretched along the bottom of the crease. A long soft crease from a hedge or a wall is often less work than a short vicious one from a trolley corner, because the sharp one has taken the metal further past its limit.</p>
-    <div class="promise">Fixed price before we start. Creases are the damage most likely to need more than paintless can give, so if yours has stretched or split the metal we will tell you straight and explain what your options actually are.</div>
+    <div class="promise">Fixed price before we start. Creases are the damage most likely to need more than PDR can give, so if yours has stretched or split the metal we will tell you straight and explain what your options actually are.</div>
     <ul class="svc-steps">
       <li><strong>Photograph it lengthways</strong><span>Shoot along the crease with light running down it. A photo taken square on flattens the whole thing out and tells us nothing about depth.</span></li>
       <li><strong>Priced on sharpness, not just length</strong><span>We quote what the fold will take to reverse. A short deep crease can be more work than one twice its length.</span></li>
       <li><strong>Agreed before any tool touches the car</strong><span>The number you get is the number you pay, and anything unexpected gets discussed with you first.</span></li>
-      <li><strong>Compare it to a panel respray</strong><span>A creased door at a bodyshop means filler, primer, colour and lacquer, plus blending into the panels either side. Paintless keeps every bit of that off your car.</span></li>
+      <li><strong>Compare it to a panel respray</strong><span>A creased door at a bodyshop means filler, primer, colour and lacquer, plus blending into the panels either side. PDR keeps every bit of that off your car.</span></li>
     </ul>
   </div>
 </section>
@@ -403,7 +403,7 @@ title="Everdent PDR - Contact Form"
   <div class="container">
     <div class="label">Got A Dent?</div>
     <h2>Ready To Sort Your Crease Problem?</h2>
-    <p>Send a photo or give us a ring and we will tell you honestly whether paintless will put it right.</p>
+    <p>Send a photo or give us a ring and we will tell you honestly whether PDR will put it right.</p>
     <a class="btn-cta" href="tel:01225000000"><span class="pglyph">&#128222;</span> 01225 000 000</a>
   </div>
 </section>
@@ -457,6 +457,7 @@ title="Everdent PDR - Contact Form"
 
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 function toggleFaq(el){
   var item=el.parentElement;
   var open=item.classList.contains('open');

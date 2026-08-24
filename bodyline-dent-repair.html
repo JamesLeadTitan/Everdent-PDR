@@ -222,7 +222,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   "@type": "Service",
   "name": "Bodyline Dent Repair",
   "serviceType": "Bodyline Dent Repair",
-  "description": "Paintless repair of dents sitting on a vehicle swage line or bodyline, reshaped so the crease runs true again without paint or filler.",
+  "description": "PDR repair of dents sitting on a vehicle swage line or bodyline, reshaped so the crease runs true again without paint or filler.",
   "url": "https://www.everdentpdr.co.uk/bodyline-dent-repair",
   "provider": {
     "@type": "AutoBodyShop",
@@ -335,12 +335,12 @@ title="Everdent PDR - Contact Form"
     <h2>What You'll Pay - No Hidden Costs</h2>
     <p class="body-copy">Bodyline work is priced on its own merits, so there is no flat rate published here. You get a price from a photo before anything is booked.</p>
     <p class="body-copy">A dent on a bodyline costs more than the same size dent on a flat panel, and it is worth knowing why. The line itself has to end up dead straight, because the eye follows it down the whole side of the car and picks up the smallest wave. That means more small pushes, more checking against the board, and more time.</p>
-    <div class="promise">The price is fixed before we start. If the line has been stretched or the metal is torn where it folded, paintless on its own will not give you a straight line back, and we will say so up front instead of getting halfway and stopping.</div>
+    <div class="promise">The price is fixed before we start. If the line has been stretched or the metal is torn where it folded, PDR on its own will not give you a straight line back, and we will say so up front instead of getting halfway and stopping.</div>
     <ul class="svc-steps">
       <li><strong>Send a photo along the line</strong><span>Stand at the end of the car and shoot down the length of the bodyline. That angle shows us how far the line has moved, which a straight on photo hides completely.</span></li>
       <li><strong>Priced for the crease, not the dent</strong><span>We quote for putting the line back true, which is the actual job. Anyone pricing it as a plain dent is either not looking properly or not planning to finish it.</span></li>
       <li><strong>Fixed before any work starts</strong><span>Once you have the price, that is the price. If the damage is worse than the photo showed, we stop and talk to you first.</span></li>
-      <li><strong>Cheaper than a panel repair</strong><span>A bodyshop repair on a swage line usually means filler and a respray on a panel that shows every flaw. Paintless keeps the factory paint and skips all of that.</span></li>
+      <li><strong>Cheaper than a panel repair</strong><span>A bodyshop repair on a swage line usually means filler and a respray on a panel that shows every flaw. PDR keeps the factory paint and skips all of that.</span></li>
     </ul>
   </div>
 </section>
@@ -349,7 +349,7 @@ title="Everdent PDR - Contact Form"
   <div class="container">
     <div class="label">The Repair</div>
     <h2>What To Expect</h2>
-    <p class="body-copy">Bodyline repairs are the ones that separate a decent paintless job from a rushed one. This is how ours goes.</p>
+    <p class="body-copy">Bodyline repairs are the ones that separate a decent PDR job from a rushed one. This is how ours goes.</p>
     <ul class="svc-steps">
       <li><strong>The line is mapped first</strong><span>The reflection board goes on and we follow the line from both ends. Where the crease dips, kinks or runs wide shows up as a break in the reflection long before it shows to the naked eye.</span></li>
       <li><strong>High points come down before low points come up</strong><span>A folded bodyline almost always has metal sitting proud beside the dent. That gets tapped down first. Push the low spot up before dealing with it and the line ends up wavy.</span></li>
@@ -385,7 +385,7 @@ title="Everdent PDR - Contact Form"
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">What if the bodyline has been repaired badly before?</button>
-        <div class="faq-a"><p>Filler under the paint, or metal that has already been stretched by someone pushing too hard, both limit what paintless can achieve. We will look and tell you honestly what is realistic.</p></div>
+        <div class="faq-a"><p>Filler under the paint, or metal that has already been stretched by someone pushing too hard, both limit what PDR can achieve. We will look and tell you honestly what is realistic.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">Do you need to remove trim or the door card?</button>
@@ -403,7 +403,7 @@ title="Everdent PDR - Contact Form"
   <div class="container">
     <div class="label">Got A Dent?</div>
     <h2>Ready To Sort Your Bodyline Dent Problem?</h2>
-    <p>Send a photo or give us a ring and we will tell you honestly whether paintless will put it right.</p>
+    <p>Send a photo or give us a ring and we will tell you honestly whether PDR will put it right.</p>
     <a class="btn-cta" href="tel:01225000000"><span class="pglyph">&#128222;</span> 01225 000 000</a>
   </div>
 </section>
@@ -457,6 +457,7 @@ title="Everdent PDR - Contact Form"
 
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 function toggleFaq(el){
   var item=el.parentElement;
   var open=item.classList.contains('open');

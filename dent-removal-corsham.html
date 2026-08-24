@@ -307,7 +307,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
         <li><strong>We know the lanes</strong><span>Corsham damage tends to be creases and edges rather than simple dings, and those need working in stages rather than pushing out.</span></li>
         <li><strong>Nothing gets filled</strong><span>A crease that a bodyshop would fill and respray can usually be reshaped instead, so the panel keeps its original paint.</span></li>
         <li><strong>We come to you</strong><span>No driving a damaged car through town to a garage. We work on the driveway or at the office.</span></li>
-        <li><strong>Honest about the limits</strong><span>Where the paint has been broken by a wall, we tell you straight that paintless is not the answer rather than taking the job on anyway.</span></li>
+        <li><strong>Honest about the limits</strong><span>Where the paint has been broken by a wall, we tell you straight that PDR is not the answer rather than taking the job on anyway.</span></li>
     </ul>
   </div>
 </section>
@@ -326,7 +326,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
       <li>
         <span class="num">Step Two</span>
         <strong>We Come Back With A Price</strong>
-        <span>We look at what you have sent, tell you straight whether paintless will put it right, and give you a price. No trip to a garage just to get quoted.</span>
+        <span>We look at what you have sent, tell you straight whether PDR will put it right, and give you a price. No trip to a garage just to get quoted.</span>
       </li>
       <li>
         <span class="num">Step Three</span>
@@ -380,7 +380,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   <div class="container">
     <div class="label">Dent In Corsham?</div>
     <h2>Ready To Book Dent Removal In Corsham?</h2>
-    <p>Send us a photo of the damage and we will come back with a straight answer and a price. If paintless is not right for it, we will tell you that too.</p>
+    <p>Send us a photo of the damage and we will come back with a straight answer and a price. If PDR is not right for it, we will tell you that too.</p>
     <a class="btn-cta" href="tel:01225000000"><span class="pglyph">&#128222;</span> 01225 000 000</a>
   </div>
 </section>
@@ -478,6 +478,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
 
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 function toggleFaq(el){
   var item=el.parentElement;
   var open=item.classList.contains('open');

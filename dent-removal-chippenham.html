@@ -287,7 +287,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   <div class="container">
     <div class="label">What We See Here</div>
     <h3>Dents We Repair In Chippenham</h3>
-    <p class="sub">Chippenham jobs are mostly parking damage. Round door dings from the town centre car parks, longer creases from pillars and walls, and door edges folded in on a tight driveway or a garage. Hail damage across a roof and bonnet turns up after a bad summer storm, and that is paintless work too.</p>
+    <p class="sub">Chippenham jobs are mostly parking damage. Round door dings from the town centre car parks, longer creases from pillars and walls, and door edges folded in on a tight driveway or a garage. Hail damage across a roof and bonnet turns up after a bad summer storm, and that is PDR work too.</p>
     <div class="svc-links">
       <a href="door-ding-repair.html"><strong>Door Ding Repair</strong><span>Small round dents from car doors, trolleys and knocks, pushed out without touching the paint.</span></a>
       <a href="bodyline-dent-repair.html"><strong>Bodyline Dent Repair</strong><span>Dents on the swage line reshaped accurately so the crease runs straight again.</span></a>
@@ -307,7 +307,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
         <li><strong>A short run down the A350</strong><span>Chippenham is close enough that getting to you is not a job in itself, so there is no travel loaded into the price.</span></li>
         <li><strong>No bodyshop queue</strong><span>Dent work is all we do. A car does not sit waiting behind panel jobs and paint booking slots.</span></li>
         <li><strong>Your paint history stays clean</strong><span>No respray means no paint on the panel that did not come from the factory, which matters when the car is sold or handed back.</span></li>
-        <li><strong>Photo first, price second</strong><span>You know the cost before anyone touches the car, and you know quickly whether paintless is the right answer at all.</span></li>
+        <li><strong>Photo first, price second</strong><span>You know the cost before anyone touches the car, and you know quickly whether PDR is the right answer at all.</span></li>
     </ul>
   </div>
 </section>
@@ -326,7 +326,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
       <li>
         <span class="num">Step Two</span>
         <strong>We Come Back With A Price</strong>
-        <span>We look at what you have sent, tell you straight whether paintless will put it right, and give you a price. No trip to a garage just to get quoted.</span>
+        <span>We look at what you have sent, tell you straight whether PDR will put it right, and give you a price. No trip to a garage just to get quoted.</span>
       </li>
       <li>
         <span class="num">Step Three</span>
@@ -380,7 +380,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   <div class="container">
     <div class="label">Dent In Chippenham?</div>
     <h2>Ready To Book Dent Removal In Chippenham?</h2>
-    <p>Send us a photo of the damage and we will come back with a straight answer and a price. If paintless is not right for it, we will tell you that too.</p>
+    <p>Send us a photo of the damage and we will come back with a straight answer and a price. If PDR is not right for it, we will tell you that too.</p>
     <a class="btn-cta" href="tel:01225000000"><span class="pglyph">&#128222;</span> 01225 000 000</a>
   </div>
 </section>
@@ -478,6 +478,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
 
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 function toggleFaq(el){
   var item=el.parentElement;
   var open=item.classList.contains('open');

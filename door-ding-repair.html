@@ -222,7 +222,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   "@type": "Service",
   "name": "Door Ding Repair",
   "serviceType": "Door Ding Repair",
-  "description": "Paintless repair of door dings and small round dents caused by car doors, trolleys and knocks, carried out without paint or filler.",
+  "description": "PDR repair of door dings and small round dents caused by car doors, trolleys and knocks, carried out without paint or filler.",
   "url": "https://www.everdentpdr.co.uk/door-ding-repair",
   "provider": {
     "@type": "AutoBodyShop",
@@ -335,12 +335,12 @@ title="Everdent PDR - Contact Form"
     <h2>What You'll Pay - No Hidden Costs</h2>
     <p class="body-copy">Every door ding is a slightly different job, so there is no one size fits all price on this page. What there is instead is a straight price from a photo, before anybody books anything in.</p>
     <p class="body-copy">Three things decide what a ding costs to put right: how wide it is, how deep the metal has been pushed, and where on the panel it landed. A shallow ding in the open middle of a door is a quick job. The same ding sitting on a swage line, or right behind a brace where access is tight, takes longer and is priced for the extra work.</p>
-    <div class="promise">You get a fixed price before we start, and that is the price you pay. If we look at the ding and paintless will not put it right on its own, we tell you before any work begins rather than halfway through.</div>
+    <div class="promise">You get a fixed price before we start, and that is the price you pay. If we look at the ding and PDR will not put it right on its own, we tell you before any work begins rather than halfway through.</div>
     <ul class="svc-steps">
       <li><strong>Quoting costs nothing</strong><span>Send a photo or a short video of the ding and we come back with a price. No charge for the quote and no obligation to book the work in.</span></li>
       <li><strong>The price is agreed up front</strong><span>Nothing moves once the car is in front of us, unless the damage turns out to be different to the photo, and then we talk to you before we touch it.</span></li>
-      <li><strong>Usually well under a bodyshop</strong><span>There is no paint, no filler, no masking and no panel drying time to pay for, which is why paintless normally comes in a long way under a traditional repair.</span></li>
-      <li><strong>Insurance work is fine</strong><span>Paintless uses techniques insurers and bodyshops recognise. If you are going through a claim, we will work with whatever your insurer asks for.</span></li>
+      <li><strong>Usually well under a bodyshop</strong><span>There is no paint, no filler, no masking and no panel drying time to pay for, which is why PDR normally comes in a long way under a traditional repair.</span></li>
+      <li><strong>Insurance work is fine</strong><span>PDR uses techniques insurers and bodyshops recognise. If you are going through a claim, we will work with whatever your insurer asks for.</span></li>
     </ul>
   </div>
 </section>
@@ -377,7 +377,7 @@ title="Everdent PDR - Contact Form"
     <div class="faq-list">
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">Will the paint crack when you push the ding out?</button>
-        <div class="faq-a"><p>Not on a sound panel. Modern paint flexes with the metal, which is what makes paintless possible in the first place. Where paint is already chipped, cracked or has been resprayed badly in the past, the risk is different and we will tell you that before starting.</p></div>
+        <div class="faq-a"><p>Not on a sound panel. Modern paint flexes with the metal, which is what makes PDR possible in the first place. Where paint is already chipped, cracked or has been resprayed badly in the past, the risk is different and we will tell you that before starting.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">How small a dent is worth repairing?</button>
@@ -389,7 +389,7 @@ title="Everdent PDR - Contact Form"
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">What if there is a scratch in the ding as well?</button>
-        <div class="faq-a"><p>Paintless will take the dent out but it cannot put paint back. If there is a scratch through to primer or metal, we will still remove the dent and be straight with you about what the mark will look like afterwards.</p></div>
+        <div class="faq-a"><p>PDR will take the dent out but it cannot put paint back. If there is a scratch through to primer or metal, we will still remove the dent and be straight with you about what the mark will look like afterwards.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">How long does a door ding take?</button>
@@ -403,7 +403,7 @@ title="Everdent PDR - Contact Form"
   <div class="container">
     <div class="label">Got A Dent?</div>
     <h2>Ready To Sort Your Door Ding Problem?</h2>
-    <p>Send a photo or give us a ring and we will tell you honestly whether paintless will put it right.</p>
+    <p>Send a photo or give us a ring and we will tell you honestly whether PDR will put it right.</p>
     <a class="btn-cta" href="tel:01225000000"><span class="pglyph">&#128222;</span> 01225 000 000</a>
   </div>
 </section>
@@ -457,6 +457,7 @@ title="Everdent PDR - Contact Form"
 
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 function toggleFaq(el){
   var item=el.parentElement;
   var open=item.classList.contains('open');

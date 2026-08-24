@@ -351,6 +351,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
 </footer>
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 </script>
 <script src="https://widgets.leadconnectorhq.com/loader.js"
   data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"

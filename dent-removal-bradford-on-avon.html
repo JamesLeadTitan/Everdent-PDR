@@ -277,7 +277,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   <div class="container">
     <h2>Local Dent Removal You Can Trust In Bradford On Avon</h2>
       <p>Bradford on Avon is one of the tightest towns we work in. The streets climbing away from the Town Bridge were built for carts, the parking is on a hill more often than not, and passing another car frequently means one of you is hard against a stone wall. It is a beautiful place and it is tough on bodywork.</p>
-      <p>Because of that, the damage here skews towards creases and door edges rather than simple dings. A folded door edge from a wall or a gatepost is a weekly job for us in this town, and it is one of the repairs where paintless really earns its keep, since a bodyshop would normally want to fill the fold and respray the whole door.</p>
+      <p>Because of that, the damage here skews towards creases and door edges rather than simple dings. A folded door edge from a wall or a gatepost is a weekly job for us in this town, and it is one of the repairs where PDR really earns its keep, since a bodyshop would normally want to fill the fold and respray the whole door.</p>
       <p>The station and the town centre parking add the rest. Both fill early and both are tight, so cars sit door to door all day. Add the residents' parking on the steeper terraces, where a car may be squeezed into a space with a wall on one side and a neighbour on the other, and the pattern is set.</p>
     <div class="promise">No paint. No filler. No respray. Your car keeps its original factory finish, and its history stays clean.</div>
   </div>
@@ -304,10 +304,10 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
     <div class="label">Why Us</div>
     <h3>Why Choose Everdent PDR In Bradford on Avon?</h3>
     <ul class="about-points">
-        <li><strong>Built for tight town damage</strong><span>Creases and folded edges need reshaping in stages, which is skilled paintless work rather than a quick push out.</span></li>
+        <li><strong>Built for tight town damage</strong><span>Creases and folded edges need reshaping in stages, which is skilled PDR work rather than a quick push out.</span></li>
         <li><strong>No respray on an older car</strong><span>Plenty of cars here are worth keeping original. Not painting a panel keeps the car exactly as it was.</span></li>
         <li><strong>We come to the car</strong><span>No driving a dented car out of town to a garage and back. We work where it is parked.</span></li>
-        <li><strong>Clear on what is possible</strong><span>Stone tends to break paint. If it has, we will tell you that paintless is not the fix rather than trying it anyway.</span></li>
+        <li><strong>Clear on what is possible</strong><span>Stone tends to break paint. If it has, we will tell you that PDR is not the fix rather than trying it anyway.</span></li>
     </ul>
   </div>
 </section>
@@ -326,7 +326,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
       <li>
         <span class="num">Step Two</span>
         <strong>We Come Back With A Price</strong>
-        <span>We look at what you have sent, tell you straight whether paintless will put it right, and give you a price. No trip to a garage just to get quoted.</span>
+        <span>We look at what you have sent, tell you straight whether PDR will put it right, and give you a price. No trip to a garage just to get quoted.</span>
       </li>
       <li>
         <span class="num">Step Three</span>
@@ -380,7 +380,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   <div class="container">
     <div class="label">Dent In Bradford on Avon?</div>
     <h2>Ready To Book Dent Removal In Bradford on Avon?</h2>
-    <p>Send us a photo of the damage and we will come back with a straight answer and a price. If paintless is not right for it, we will tell you that too.</p>
+    <p>Send us a photo of the damage and we will come back with a straight answer and a price. If PDR is not right for it, we will tell you that too.</p>
     <a class="btn-cta" href="tel:01225000000"><span class="pglyph">&#128222;</span> 01225 000 000</a>
   </div>
 </section>
@@ -478,6 +478,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
 
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 function toggleFaq(el){
   var item=el.parentElement;
   var open=item.classList.contains('open');

@@ -277,7 +277,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   <div class="container">
     <h2>Local Dent Removal You Can Trust In Calne</h2>
       <p>Calne is a straightforward run for us across from Melksham, and the damage we see there is shaped by the town centre. The parking around Market Hill and The Pippin is busy and the bays are old, so cars end up closer together than anyone would choose. That is door ding territory.</p>
-      <p>The A4 running through the town brings its own problems. Cars parked on the through roads and the older streets off them get clipped by passing traffic and wing mirrors, and the dents that leaves tend to be shallow and long rather than round. Those are ideal paintless jobs because the paint usually survives even when the metal does not.</p>
+      <p>The A4 running through the town brings its own problems. Cars parked on the through roads and the older streets off them get clipped by passing traffic and wing mirrors, and the dents that leaves tend to be shallow and long rather than round. Those are ideal PDR jobs because the paint usually survives even when the metal does not.</p>
       <p>Out towards Beversbrook and Quemerford, and on the newer estates, it is driveways and garages instead. Narrow entrances, brick pillars and low walls all leave creases and folded door edges, and we get called to those most weeks somewhere in the town.</p>
     <div class="promise">No paint. No filler. No respray. Your car keeps its original factory finish, and its history stays clean.</div>
   </div>
@@ -326,7 +326,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
       <li>
         <span class="num">Step Two</span>
         <strong>We Come Back With A Price</strong>
-        <span>We look at what you have sent, tell you straight whether paintless will put it right, and give you a price. No trip to a garage just to get quoted.</span>
+        <span>We look at what you have sent, tell you straight whether PDR will put it right, and give you a price. No trip to a garage just to get quoted.</span>
       </li>
       <li>
         <span class="num">Step Three</span>
@@ -380,7 +380,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   <div class="container">
     <div class="label">Dent In Calne?</div>
     <h2>Ready To Book Dent Removal In Calne?</h2>
-    <p>Send us a photo of the damage and we will come back with a straight answer and a price. If paintless is not right for it, we will tell you that too.</p>
+    <p>Send us a photo of the damage and we will come back with a straight answer and a price. If PDR is not right for it, we will tell you that too.</p>
     <a class="btn-cta" href="tel:01225000000"><span class="pglyph">&#128222;</span> 01225 000 000</a>
   </div>
 </section>
@@ -478,6 +478,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
 
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 function toggleFaq(el){
   var item=el.parentElement;
   var open=item.classList.contains('open');

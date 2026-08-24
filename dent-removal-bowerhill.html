@@ -287,7 +287,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   <div class="container">
     <div class="label">What We See Here</div>
     <h3>Dents We Repair In Bowerhill</h3>
-    <p class="sub">On the estate it is nearly always door dings and folded door edges from parking side by side all day. On the residential streets it is longer creases and scrapes from walls, pillars and gateposts. Both are paintless work, provided the paint itself has not been broken.</p>
+    <p class="sub">On the estate it is nearly always door dings and folded door edges from parking side by side all day. On the residential streets it is longer creases and scrapes from walls, pillars and gateposts. Both are PDR work, provided the paint itself has not been broken.</p>
     <div class="svc-links">
       <a href="door-ding-repair.html"><strong>Door Ding Repair</strong><span>Small round dents from car doors, trolleys and knocks, pushed out without touching the paint.</span></a>
       <a href="bodyline-dent-repair.html"><strong>Bodyline Dent Repair</strong><span>Dents on the swage line reshaped accurately so the crease runs straight again.</span></a>
@@ -306,7 +306,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
     <ul class="about-points">
         <li><strong>Minutes from the estate</strong><span>We are the next thing to local here, so a repair does not need a special trip or a travel charge on top.</span></li>
         <li><strong>We work around shifts</strong><span>If the car is parked up all day for work, we can often sort it while it is sat there rather than asking for a day off.</span></li>
-        <li><strong>No filler on a work vehicle</strong><span>Company cars and lease vehicles get inspected. Paintless keeps the original paint and keeps the panel off a damage report.</span></li>
+        <li><strong>No filler on a work vehicle</strong><span>Company cars and lease vehicles get inspected. PDR keeps the original paint and keeps the panel off a damage report.</span></li>
         <li><strong>Straight pricing from a photo</strong><span>Send a picture of the dent and you get a price back, not an invitation to bring it in for a look.</span></li>
     </ul>
   </div>
@@ -326,7 +326,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
       <li>
         <span class="num">Step Two</span>
         <strong>We Come Back With A Price</strong>
-        <span>We look at what you have sent, tell you straight whether paintless will put it right, and give you a price. No trip to a garage just to get quoted.</span>
+        <span>We look at what you have sent, tell you straight whether PDR will put it right, and give you a price. No trip to a garage just to get quoted.</span>
       </li>
       <li>
         <span class="num">Step Three</span>
@@ -380,7 +380,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   <div class="container">
     <div class="label">Dent In Bowerhill?</div>
     <h2>Ready To Book Dent Removal In Bowerhill?</h2>
-    <p>Send us a photo of the damage and we will come back with a straight answer and a price. If paintless is not right for it, we will tell you that too.</p>
+    <p>Send us a photo of the damage and we will come back with a straight answer and a price. If PDR is not right for it, we will tell you that too.</p>
     <a class="btn-cta" href="tel:01225000000"><span class="pglyph">&#128222;</span> 01225 000 000</a>
   </div>
 </section>
@@ -478,6 +478,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
 
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 function toggleFaq(el){
   var item=el.parentElement;
   var open=item.classList.contains('open');

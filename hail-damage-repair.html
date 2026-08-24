@@ -222,7 +222,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   "@type": "Service",
   "name": "Hail Damage Repair",
   "serviceType": "Hail Damage Repair",
-  "description": "Paintless repair of hail damage, removing large numbers of small dents across roof, bonnet and boot panels without paint or filler.",
+  "description": "PDR repair of hail damage, removing large numbers of small dents across roof, bonnet and boot panels without paint or filler.",
   "url": "https://www.everdentpdr.co.uk/hail-damage-repair",
   "provider": {
     "@type": "AutoBodyShop",
@@ -335,12 +335,12 @@ title="Everdent PDR - Contact Form"
     <h2>What You'll Pay - No Hidden Costs</h2>
     <p class="body-copy">Hail is priced per car rather than per dent, and it is the one job where we would always rather see the vehicle in person before committing to a figure.</p>
     <p class="body-copy">The count matters, but so does where the dents sit. Dents in the open middle of a roof are quick. Dents along the edge of a bonnet, up against a brace, or on a double skinned panel all take longer because access is restricted. Aluminium panels, which a lot of modern bonnets are, work harder than steel and add time again.</p>
-    <div class="promise">You get one fixed price for the car before we start, not a running total that climbs as the day goes on. If some panels are beyond paintless, they come off the quote and we tell you which ones and why.</div>
+    <div class="promise">You get one fixed price for the car before we start, not a running total that climbs as the day goes on. If some panels are beyond PDR, they come off the quote and we tell you which ones and why.</div>
     <ul class="svc-steps">
       <li><strong>Photos first, then a proper look</strong><span>Send photos of each affected panel taken at a low angle so the dents catch the light. For hail we will normally follow that up by seeing the car, because a photo never shows the full count.</span></li>
       <li><strong>Priced as a whole car</strong><span>One figure covering the panels we are treating. You know the number before the first rod comes out.</span></li>
-      <li><strong>Usually the insurer's preferred route</strong><span>Paintless keeps the car on its original paint and off a bodyshop ramp for a fortnight, which is why insurers tend to favour it for hail. We will provide what your insurer needs.</span></li>
-      <li><strong>No paint means no mismatched panels</strong><span>A resprayed roof next to an original bonnet is visible in the right light for the rest of the car's life. Paintless avoids that entirely.</span></li>
+      <li><strong>Usually the insurer's preferred route</strong><span>PDR keeps the car on its original paint and off a bodyshop ramp for a fortnight, which is why insurers tend to favour it for hail. We will provide what your insurer needs.</span></li>
+      <li><strong>No paint means no mismatched panels</strong><span>A resprayed roof next to an original bonnet is visible in the right light for the rest of the car's life. PDR avoids that entirely.</span></li>
     </ul>
   </div>
 </section>
@@ -377,7 +377,7 @@ title="Everdent PDR - Contact Form"
     <div class="faq-list">
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">Is it worth claiming on insurance for hail?</button>
-        <div class="faq-a"><p>Often yes, and paintless usually costs an insurer less than a bodyshop respray, which helps. Check your excess and your policy first, then talk to us and we will work in with whatever they need.</p></div>
+        <div class="faq-a"><p>Often yes, and PDR usually costs an insurer less than a bodyshop respray, which helps. Check your excess and your policy first, then talk to us and we will work in with whatever they need.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">Can every hail dent be removed?</button>
@@ -385,7 +385,7 @@ title="Everdent PDR - Contact Form"
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">Will the roof need respraying afterwards?</button>
-        <div class="faq-a"><p>No. That is the point of paintless. The factory paint stays exactly as it is, which also protects the car's history and its value.</p></div>
+        <div class="faq-a"><p>No. That is the point of PDR. The factory paint stays exactly as it is, which also protects the car's history and its value.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">How long will the car be off the road?</button>
@@ -403,7 +403,7 @@ title="Everdent PDR - Contact Form"
   <div class="container">
     <div class="label">Got A Dent?</div>
     <h2>Ready To Sort Your Hail Damage Problem?</h2>
-    <p>Send a photo or give us a ring and we will tell you honestly whether paintless will put it right.</p>
+    <p>Send a photo or give us a ring and we will tell you honestly whether PDR will put it right.</p>
     <a class="btn-cta" href="tel:01225000000"><span class="pglyph">&#128222;</span> 01225 000 000</a>
   </div>
 </section>
@@ -457,6 +457,7 @@ title="Everdent PDR - Contact Form"
 
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 function toggleFaq(el){
   var item=el.parentElement;
   var open=item.classList.contains('open');

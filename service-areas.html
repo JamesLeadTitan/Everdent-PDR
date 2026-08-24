@@ -276,7 +276,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
 <section class="section area-sec">
   <div class="container">
     <div class="label">Towns We Cover</div>
-    <h2>Paintless Dent Removal Across Wiltshire</h2>
+    <h2>PDR Dent Removal Across Wiltshire</h2>
     <p class="sub">Each town below has its own page with the sort of damage we see there and how we deal with it. We are mobile, so in every one of them we come to the car rather than asking you to bring it to us.</p>
     <div class="area-cards">
       <a href="dent-removal-melksham.html"><strong>Melksham</strong><span>Our home town. Market Place and Church Street car park dings, plus street parking damage off Spa Road.</span></a>
@@ -409,6 +409,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
 
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 function toggleFaq(el){
   var item=el.parentElement;
   var open=item.classList.contains('open');

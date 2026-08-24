@@ -277,7 +277,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   <div class="container">
     <h2>Local Dent Removal You Can Trust In Trowbridge</h2>
       <p>Trowbridge is a big town packed into a tight centre, and parking is where nearly every job we get here begins. The car parks around The Shires and Castle Place fill up and empty out all day, and the more times a bay changes hands the more chances there are for a door to swing into the car alongside it.</p>
-      <p>The terraced streets running out of the centre are the other half of it. Where a house has no driveway the car lives on the road, nose to tail, often on a road narrow enough that everything passing has to squeeze by. Shallow dents down the flanks, clipped wing mirrors and creases from gateposts are all normal here, and all of it is paintless work while the paint is intact.</p>
+      <p>The terraced streets running out of the centre are the other half of it. Where a house has no driveway the car lives on the road, nose to tail, often on a road narrow enough that everything passing has to squeeze by. Shallow dents down the flanks, clipped wing mirrors and creases from gateposts are all normal here, and all of it is PDR work while the paint is intact.</p>
       <p>We also cover the business parks on the edge of town, including the White Horse estate. Those are all day parking in long rows, which means door dings on the driver's side and folded door edges from people getting out in a hurry between meetings.</p>
     <div class="promise">No paint. No filler. No respray. Your car keeps its original factory finish, and its history stays clean.</div>
   </div>
@@ -305,7 +305,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
     <h3>Why Choose Everdent PDR In Trowbridge?</h3>
     <ul class="about-points">
         <li><strong>A short hop from Melksham</strong><span>Trowbridge is close enough for us to get to quickly, so a small dent is worth sorting rather than living with.</span></li>
-        <li><strong>Street parking damage is our normal work</strong><span>Shallow dents down a flank are exactly what paintless is best at, and they are the ones bodyshops would rather fill.</span></li>
+        <li><strong>Street parking damage is our normal work</strong><span>Shallow dents down a flank are exactly what PDR is best at, and they are the ones bodyshops would rather fill.</span></li>
         <li><strong>No paint means no mismatch</strong><span>Metallic and pearl finishes are hard to match. Not repainting is the surest way to avoid a panel that looks slightly off in daylight.</span></li>
         <li><strong>Booked around you</strong><span>We put you in the diary at a time that works around your week, at home or at work.</span></li>
     </ul>
@@ -326,7 +326,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
       <li>
         <span class="num">Step Two</span>
         <strong>We Come Back With A Price</strong>
-        <span>We look at what you have sent, tell you straight whether paintless will put it right, and give you a price. No trip to a garage just to get quoted.</span>
+        <span>We look at what you have sent, tell you straight whether PDR will put it right, and give you a price. No trip to a garage just to get quoted.</span>
       </li>
       <li>
         <span class="num">Step Three</span>
@@ -380,7 +380,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   <div class="container">
     <div class="label">Dent In Trowbridge?</div>
     <h2>Ready To Book Dent Removal In Trowbridge?</h2>
-    <p>Send us a photo of the damage and we will come back with a straight answer and a price. If paintless is not right for it, we will tell you that too.</p>
+    <p>Send us a photo of the damage and we will come back with a straight answer and a price. If PDR is not right for it, we will tell you that too.</p>
     <a class="btn-cta" href="tel:01225000000"><span class="pglyph">&#128222;</span> 01225 000 000</a>
   </div>
 </section>
@@ -478,6 +478,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
 
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 function toggleFaq(el){
   var item=el.parentElement;
   var open=item.classList.contains('open');

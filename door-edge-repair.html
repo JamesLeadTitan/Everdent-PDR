@@ -222,7 +222,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   "@type": "Service",
   "name": "Door Edge Repair",
   "serviceType": "Door Edge Repair",
-  "description": "Paintless repair of folded and dented door edges caused by walls, posts and neighbouring vehicles, worked back to shape without paint or filler.",
+  "description": "PDR repair of folded and dented door edges caused by walls, posts and neighbouring vehicles, worked back to shape without paint or filler.",
   "url": "https://www.everdentpdr.co.uk/door-edge-repair",
   "provider": {
     "@type": "AutoBodyShop",
@@ -340,7 +340,7 @@ title="Everdent PDR - Contact Form"
       <li><strong>Photograph the edge open</strong><span>Open the door and photograph the edge itself, not the side of the car. The fold only shows properly with the door swung out and light running along the lip.</span></li>
       <li><strong>Priced by the fold, not the length</strong><span>A short sharp fold can be more work than a long gentle one. We price what is actually in front of us.</span></li>
       <li><strong>Agreed before the tools come out</strong><span>The quote is fixed. Anything different to the photo gets discussed with you before we carry on.</span></li>
-      <li><strong>Far less than an edge respray</strong><span>Painting a door edge properly means blending into the outer skin, and that is a full panel job at a bodyshop. Paintless leaves the original paint where it is.</span></li>
+      <li><strong>Far less than an edge respray</strong><span>Painting a door edge properly means blending into the outer skin, and that is a full panel job at a bodyshop. PDR leaves the original paint where it is.</span></li>
     </ul>
   </div>
 </section>
@@ -403,7 +403,7 @@ title="Everdent PDR - Contact Form"
   <div class="container">
     <div class="label">Got A Dent?</div>
     <h2>Ready To Sort Your Door Edge Problem?</h2>
-    <p>Send a photo or give us a ring and we will tell you honestly whether paintless will put it right.</p>
+    <p>Send a photo or give us a ring and we will tell you honestly whether PDR will put it right.</p>
     <a class="btn-cta" href="tel:01225000000"><span class="pglyph">&#128222;</span> 01225 000 000</a>
   </div>
 </section>
@@ -457,6 +457,7 @@ title="Everdent PDR - Contact Form"
 
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 function toggleFaq(el){
   var item=el.parentElement;
   var open=item.classList.contains('open');

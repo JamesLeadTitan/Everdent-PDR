@@ -222,7 +222,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
   "@type": "Service",
   "name": "Severe and Complex Dent Repair",
   "serviceType": "Severe and Complex Dent Repair",
-  "description": "Paintless repair of severe and complex dents, including deep damage, sharp creases, bodyline damage and clusters of dents worked back in stages.",
+  "description": "PDR repair of severe and complex dents, including deep damage, sharp creases, bodyline damage and clusters of dents worked back in stages.",
   "url": "https://www.everdentpdr.co.uk/severe-dent-repair",
   "provider": {
     "@type": "AutoBodyShop",
@@ -299,7 +299,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.1;text-tr
         <ul class="hero-badges">
           <li>Worked back in stages</li>
           <li>No paint, no filler, no respray</li>
-          <li>We say no if paintless will not do it</li>
+          <li>We say no if PDR will not do it</li>
         </ul>
       </div>
       <div class="hero-form">
@@ -338,9 +338,9 @@ title="Everdent PDR - Contact Form"
     <div class="promise">You get one fixed price before anything starts, and an honest view on what the panel will look like at the end. On damage this size we would rather turn work away than hand back a repair we are not happy to put our name to.</div>
     <ul class="svc-steps">
       <li><strong>Photos from several angles</strong><span>One straight on, one along the panel, one close in on the sharpest part. Severe damage hides its depth in a single photo, so the more angles the more accurate the price.</span></li>
-      <li><strong>Some of it we will decline</strong><span>If the metal is torn, the paint has split across the damage, or the panel has already been filled, paintless will not put it right on its own. We will tell you that before you have paid for anything.</span></li>
+      <li><strong>Some of it we will decline</strong><span>If the metal is torn, the paint has split across the damage, or the panel has already been filled, PDR will not put it right on its own. We will tell you that before you have paid for anything.</span></li>
       <li><strong>Quoted as a whole repair</strong><span>Where several dents sit together they are priced as one job, not added up individually, because they are worked as one area.</span></li>
-      <li><strong>Still usually well under a bodyshop</strong><span>Even at the difficult end of the scale, no paint and no filler means no drying time, no blending and no panel history. That is why insurers look at paintless first where it is viable.</span></li>
+      <li><strong>Still usually well under a bodyshop</strong><span>Even at the difficult end of the scale, no paint and no filler means no drying time, no blending and no panel history. That is why insurers look at PDR first where it is viable.</span></li>
     </ul>
   </div>
 </section>
@@ -376,12 +376,12 @@ title="Everdent PDR - Contact Form"
     <h2>FAQ - Severe and Complex Dent Repair</h2>
     <div class="faq-list">
       <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">How big a dent is too big for paintless?</button>
+        <button class="faq-q" onclick="toggleFaq(this)">How big a dent is too big for PDR?</button>
         <div class="faq-a"><p>Size on its own rarely rules it out. What rules it out is torn metal, split paint or a panel that has already been filled. We have taken out dents people assumed were a new panel, and turned down small ones that were beyond it.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">What happens if it cannot be fully repaired?</button>
-        <div class="faq-a"><p>We tell you before we start, not after. In some cases paintless gets a panel most of the way back and makes a subsequent paint repair far cheaper, and we will explain honestly whether that is worth doing.</p></div>
+        <div class="faq-a"><p>We tell you before we start, not after. In some cases PDR gets a panel most of the way back and makes a subsequent paint repair far cheaper, and we will explain honestly whether that is worth doing.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">Is aluminium different to steel?</button>
@@ -389,7 +389,7 @@ title="Everdent PDR - Contact Form"
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">Will a repair this size show in a history check?</button>
-        <div class="faq-a"><p>No. Paintless leaves no paint record and no panel replacement, so there is nothing for a paint depth gauge or a trade buyer to find.</p></div>
+        <div class="faq-a"><p>No. PDR leaves no paint record and no panel replacement, so there is nothing for a paint depth gauge or a trade buyer to find.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">Can you look at it before I commit to anything?</button>
@@ -403,7 +403,7 @@ title="Everdent PDR - Contact Form"
   <div class="container">
     <div class="label">Got A Dent?</div>
     <h2>Ready To Sort Your Severe Or Complex Dent Problem?</h2>
-    <p>Send a photo or give us a ring and we will tell you honestly whether paintless will put it right.</p>
+    <p>Send a photo or give us a ring and we will tell you honestly whether PDR will put it right.</p>
     <a class="btn-cta" href="tel:01225000000"><span class="pglyph">&#128222;</span> 01225 000 000</a>
   </div>
 </section>
@@ -457,6 +457,7 @@ title="Everdent PDR - Contact Form"
 
 <script>
 function toggleNav(){document.getElementById('nav').classList.toggle('open')}
+document.addEventListener('click',function(e){var t=e.target;if(t&&t.closest&&t.closest('#nav a')){document.getElementById('nav').classList.remove('open')}});
 function toggleFaq(el){
   var item=el.parentElement;
   var open=item.classList.contains('open');
